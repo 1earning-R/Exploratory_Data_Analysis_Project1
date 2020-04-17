@@ -23,17 +23,25 @@ Using data from the *[UC Irvine Machine Learning Repository](https://archive.ics
 The [data](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption#) were collected by George Hebrail and Alice Berard and downloaded by the author from *[UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)*. The data are comprised of measurements of household energy consumption in minute intervals beginning December 16, 2006. The data used in this project were only the 2880 observations from February 1-2, 2007. The data contain 9 variables:
 
 1. **Date**: in format dd/mm/yyyy
+
 2. **Time**: in format hh:mm:ss
+
 3. **Global_active_power**: minute-averaged active power (in kW)
   * Active power is the electrical power consumed by the overall household to run electrical appliances
+
 4. **Global_reactive_power**: minute-averaged reactive power (in kW)
   * Reactive power is briefly stored in components like inductors and capacitors, but is largely returned and not consumed by appliances<sup>[1](#footnote1)</sup>
+
 5. **Voltage**: minute-averaged voltage (in V)
+
 6. **Global_intensity**: minute-averaged current intensity (in A)
+
 7. **Sub_metering_1**: minute-averaged energy consumption (in Wh)
   * Energy consumption from circuit powering kitchen appliances, including dishwasher, an oven, and a microwave
+
 8. **Sub_metering_2**: minute-averaged energy consumption (in Wh)
   * Energy consumption from circuit powering laundry room appliaces, including a washing machine, tumble-drier, a refrigerator, and a light
+
 9. **Sub_metering_3**: minute-averaged energy consumption (in Wh)
   * Energy consumption from a circuit powering an electric water-heater and an air-conditioner
   
